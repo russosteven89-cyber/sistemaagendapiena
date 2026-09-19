@@ -1,0 +1,64 @@
+# Sistema Agenda Piena
+
+> Servizio italiano per saloni di bellezza, parrucchieri e centri estetici che riduce gli appuntamenti mancati (no-show), fa tornare i clienti che non prenotano da tempo e riempie i posti lasciati liberi dalle disdette all'ultimo minuto. I messaggi partono su WhatsApp dal numero del salone. Il lavoro operativo lo svolge il fondatore, Steven Russo; chi gestisce il salone approva ogni invio. Il gestionale (agenda, schede clienti, prenotazione online) è incluso nel servizio.
+
+## A chi è utile
+- Chi gestisce un salone di bellezza, un parrucchiere, un centro estetico, un centro laser, un nail o lash studio, o qualsiasi attività su appuntamento con clienti che tornano nel tempo.
+- Chi ha appuntamenti che saltano senza avviso, clienti abituali che smettono di tornare, disdette che lasciano ore vuote, un archivio clienti che nessuno ricontatta.
+
+## Come funziona
+1. Si mette in ordine l'archivio clienti del salone (quaderno, rubrica o gestionale) e lo si divide tra clienti attivi, tiepidi, freddi e persi.
+2. Steven Russo scrive le campagne e i messaggi sul salone, sui suoi servizi e prezzi.
+3. Chi gestisce il salone legge la campagna con l'offerta proposta da Steven Russo sui prezzi del salone, chiede una modifica oppure approva con un tocco: le campagne partono solo col suo sì. Promemoria, conferme e richiesta di recensione sono automatismi che si accendono una volta e si possono spegnere.
+4. Ogni messaggio contiene un link personale con servizio e orario già inseriti: chi conferma si prende il posto e l'appuntamento entra in agenda da solo.
+5. Il report nel gestionale si aggiorna da solo ogni giorno e mostra solo ciò che è stato davvero incassato (appuntamenti presi, offerte usate). Il gestionale mostra quanto ha portato il sistema, mai quanto il salone paga.
+
+## Cosa comprende
+- Promemoria e conferme degli appuntamenti su WhatsApp.
+- Riattivazione dei clienti che non tornano.
+- Proposte per riempire i posti liberati all'ultimo minuto.
+- Messaggi dopo il servizio e richiesta di recensioni Google al momento giusto.
+- Campagne stagionali.
+- Prenotazione online 24 ore su 24, con conferma automatica.
+- Report economico aggiornato ogni giorno.
+- Gestionale Atelier incluso (in costruzione: alla prima chiamata viene mostrato cosa è già pronto e cosa arriva). Prende il posto dell'agenda che il salone usa oggi; clienti, servizi e prezzi vengono importati da Steven Russo prima di partire. Le risposte a parole dei clienti arrivano sul WhatsApp del salone e risponde il salone.
+
+## Clienti nuovi
+- Il servizio nasce per far rendere i clienti che il salone ha già.
+- Porta clienti nuovi in modo indiretto: dal primo mese con le recensioni Google; come passo successivo, quando l'archivio lavora bene, con campagne di passaparola ("porta un'amica o un amico", vantaggio per entrambi, condizioni decise insieme).
+- Nessuna commissione sugli incassi del salone.
+
+## Dati e privacy (GDPR)
+- I dati restano del salone; Sistema Agenda Piena li tratta per conto del salone con accordo scritto (nomina a responsabile del trattamento) e li restituisce e cancella a fine rapporto.
+- Messaggi promozionali solo a chi ha dato il consenso; chi chiede di non riceverne più viene escluso subito.
+- Solo piattaforma ufficiale WhatsApp Business di Meta, sul numero del salone.
+- Dati trattati: nome, telefono, servizi, date e note di lavoro; nessun dato sulla salute. Nessuna vendita o cessione a terzi.
+- I documenti (accordo sul trattamento dei dati, informativa per i clienti, testo del consenso) vengono preparati da Sistema Agenda Piena, pronti da firmare.
+
+## Dove
+- Sede: Paderno Dugnano (MI), Italia.
+- Tutta Italia: il servizio si svolge in videochiamata e su WhatsApp, con Steven Russo sempre raggiungibile.
+- Per i primi saloni fondatori di Milano e provincia è possibile anche un incontro di persona.
+
+## Condizioni e stato
+- Il prezzo non è pubblicato: viene comunicato alla prima chiamata, dopo aver verificato se il servizio conviene al salone.
+- Durata a scelta: pacchetti da tre, sei o dodici mesi; alla scadenza si decide se continuare, senza rinnovi automatici a sorpresa.
+- I costi dei messaggi WhatsApp sono a carico del salone; l'account WhatsApp resta del salone.
+- Il servizio è nato nel 2026 e sta accogliendo i primi saloni fondatori, a condizioni riservate (Programma Fondatori, posti limitati).
+
+## Contatti
+- Fondatore: Steven Russo
+- WhatsApp e telefono: +39 338 750 5153
+- Email: info@sistemaagendapiena.it
+- Sito: https://sistemaagendapiena.it/
+- Partita IVA: 14794090960
+
+## Pagine
+- [Pagina principale](https://sistemaagendapiena.it/): il servizio, come funziona, il gestionale incluso, dati e privacy, diagnosi in 30 secondi, domande frequenti, contatti.
+- [Indice delle guide](https://sistemaagendapiena.it/guide/)
+- [Clienti che non si presentano: come ridurre gli appuntamenti mancati](https://sistemaagendapiena.it/guide/appuntamenti-mancati.html)
+- [Clienti che non tornano più: come riattivarli senza essere insistenti](https://sistemaagendapiena.it/guide/clienti-che-non-tornano.html)
+- [Disdette all'ultimo minuto: come riempire i buchi in agenda](https://sistemaagendapiena.it/guide/buchi-in-agenda.html)
+- [Come avere più recensioni Google per il tuo salone](https://sistemaagendapiena.it/guide/recensioni-google.html)
+- [Il passaparola che funziona: porta un'amica o un amico, senza svendere](https://sistemaagendapiena.it/guide/passaparola.html)
+- [Informativa privacy](https://sistemaagendapiena.it/privacy.html)
