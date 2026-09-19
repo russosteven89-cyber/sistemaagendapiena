@@ -689,8 +689,8 @@ table.compare{width:100%;border-collapse:collapse;min-width:760px}
 /* testata compatta sui telefoni: menu a icona, pulsante più piccolo */
 @media (max-width:1040px){.nav{gap:10px}}
 @media (max-width:480px){
-  .menu summary{width:40px;height:40px;padding:0;display:grid;place-items:center;font-size:0}
-  .menu summary::before{content:"";width:18px;height:2px;background:currentColor;box-shadow:0 -6px 0 currentColor,0 6px 0 currentColor;border-radius:2px}
+  .menu summary{position:relative;width:40px;height:40px;padding:0;display:block;font-size:0;line-height:0}
+  .menu summary::before{content:"";position:absolute;left:50%;top:50%;width:18px;height:2px;transform:translate(-50%,-50%);background:currentColor;box-shadow:0 -6px 0 currentColor,0 6px 0 currentColor;border-radius:2px}
   .menu-list{right:-8px;min-width:200px}
 }
 
