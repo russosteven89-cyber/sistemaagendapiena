@@ -241,18 +241,18 @@
       <span>Sistema Agenda Piena</span>
     </a>
     <nav class="nav" aria-label="Menu principale">
-      <a class="nav-link" href="#problema">Il problema</a>
       <a class="nav-link" href="#come-funziona">Come funziona</a>
+      <a class="nav-link" href="#chi-sono">Chi sono</a>
+      <a class="nav-link" href="#diagnosi">Diagnosi</a>
+      <a class="nav-link" href="#problema">Il problema</a>
       <a class="nav-link" href="#servizi">Cosa faccio</a>
       <a class="nav-link" href="#gestionale">Gestionale</a>
-      <a class="nav-link" href="#dati">Dati</a>
-      <a class="nav-link" href="#diagnosi">Diagnosi</a>
       <a class="nav-link" href="#domande">Domande</a>
       <a class="btn btn-gold btn-sm" href="https://wa.me/393387505153?text=Ciao%20Steven%2C%20ho%20visto%20il%20sito%20di%20Sistema%20Agenda%20Piena%20e%20vorrei%20capire%20se%20fa%20per%20il%20mio%20salone.">Scrivimi</a>
       <details class="menu">
         <summary aria-label="Apri il menu">Menu</summary>
         <div class="menu-list">
-          <a href="#problema">Il problema</a><a href="#come-funziona">Come funziona</a><a href="#come-si-parte">Come si parte</a><a href="#servizi">Cosa faccio</a><a href="#gestionale">Gestionale</a><a href="#dati">Dati</a><a href="#diagnosi">Diagnosi</a><a href="#domande">Domande</a><a href="guide/">Guide</a>
+          <a href="#come-funziona">Come funziona</a><a href="#chi-sono">Chi sono</a><a href="#diagnosi">Diagnosi</a><a href="#problema">Il problema</a><a href="#servizi">Cosa faccio</a><a href="#gestionale">Gestionale</a><a href="#come-si-parte">Come si parte</a><a href="#dati">Dati</a><a href="#domande">Domande</a><a href="#guide">Guide</a>
         </div>
       </details>
     </nav>
@@ -279,7 +279,10 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
             Scrivimi su WhatsApp
           </a>
-          <a class="btn btn-ghost" href="#diagnosi">Fai la diagnosi in 30 secondi</a>
+          <a class="btn btn-ghost" href="https://wa.me/393387505153?text=Ciao%20Steven%2C%20vorrei%20fissare%20una%20videochiamata%20per%20capire%20se%20Sistema%20Agenda%20Piena%20fa%20per%20il%20mio%20salone.%20Quando%20sei%20disponibile%3F">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+            Fissiamo una videochiamata
+          </a>
         </div>
         <ul class="assurances">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Niente da studiare: si impara in una videochiamata</li>
@@ -304,18 +307,17 @@
 
           <div class="phone">
             <i class="side s1"></i><i class="side s2"></i><i class="edge"></i>
-            <div class="screen">
-              <div class="chat-head">
-                <span class="av">✦</span>
-                <div><b>Il tuo salone</b><span>account aziendale</span></div>
+            <div class="screen wa">
+              <div class="wa-top">
+                <div class="wa-title"><b>Chat</b><span class="wa-new">+</span></div>
+                <div class="wa-search">Cerca</div>
+                <div class="wa-chips"><span class="on">Tutte</span><span>Da leggere</span><span>Preferiti</span></div>
               </div>
-              <div class="chat-body" id="chat">
-                <span class="day">oggi</span>
-                <div class="bubble in" data-k="1">Scusami, alle 15 non riesco a venire 😔<time>09:12</time></div>
-                <div class="bubble out" data-k="2">Ciao Marta, si è liberato un posto oggi alle 15:00 per la manicure. È tuo con un tocco 👉 (link personale)<time>09:41</time></div>
-                <div class="bubble in" data-k="2">Confermato, ci vediamo alle 15! 🙌<time>09:46</time></div>
-                <div class="bubble out" data-k="3">Ciao Elena, com’è andata dopo il massaggio di ieri? Se ti va, due righe su Google ci aiutano tanto 🙏<time>10:30</time></div>
-                <div class="bubble in" data-k="3">Fatto! ⭐⭐⭐⭐⭐<time>10:41</time></div>
+              <div class="wa-list" id="chat">
+                <div class="wa-row" data-c="giulia"><span class="wa-av" style="--a:#7c6fd6">G</span><div class="wa-mid"><b>Giulia</b><span class="wa-prev">Tu: A domani allora, buona serata!</span></div><div class="wa-meta"><time>ieri</time><i class="wa-badge">1</i></div></div>
+                <div class="wa-row" data-c="anna"><span class="wa-av" style="--a:#d4537e">A</span><div class="wa-mid"><b>Anna</b><span class="wa-prev">Perfetto, grazie mille!</span></div><div class="wa-meta"><time>ieri</time><i class="wa-badge">1</i></div></div>
+                <div class="wa-row" data-c="marta"><span class="wa-av" style="--a:#3e9e88">M</span><div class="wa-mid"><b>Marta</b><span class="wa-prev">Tu: Grazie a te, alla prossima 🙂</span></div><div class="wa-meta"><time>lun</time><i class="wa-badge">1</i></div></div>
+                <div class="wa-row" data-c="elena"><span class="wa-av" style="--a:#d98a4a">E</span><div class="wa-mid"><b>Elena</b><span class="wa-prev">Tu: Ti aspettiamo domani alle 17:30 😊</span></div><div class="wa-meta"><time>lun</time><i class="wa-badge">1</i></div></div>
               </div>
               <span class="glare" aria-hidden="true"></span>
             </div>
@@ -335,6 +337,140 @@
           </div>
         </div>
         <p class="stage-note">Esempio illustrativo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COME FUNZIONA ============ -->
+  <section class="section light">
+    <div class="container" id="come-funziona">
+      <div class="section-head center reveal">
+        <p class="eyebrow">Come funziona</p>
+        <h2>Il tuo reparto marketing. Senza assumere nessuno.</h2>
+        <p>Le altre piattaforme ti danno uno strumento e ti lasciano il lavoro. Io il lavoro lo faccio per te, ogni settimana, con un sistema che manda promemoria e conferme da solo: tu guardi, approvi e incassi.</p>
+      </div>
+
+      <ol class="steps">
+        <li class="step glow reveal">
+          <span class="num">1</span>
+          <h3>Metto in ordine il tuo archivio</h3>
+          <p>Quaderno, rubrica o gestionale: raccolgo tutto, tolgo i doppioni e divido chi è attivo, chi si sta allontanando e chi non torna da tempo. Sai finalmente chi hai davvero.</p>
+        </li>
+        <li class="step glow reveal">
+          <span class="num">2</span>
+          <h3>Scrivo io messaggi e offerte</h3>
+          <p>Ogni campagna è pensata sul tuo salone, sui tuoi servizi e sui tuoi prezzi, con il tuo tono. Nessuno viene ricontattato troppo spesso: la tua reputazione viene prima.</p>
+        </li>
+        <li class="step glow reveal">
+          <span class="num">3</span>
+          <h3>Tu approvi con un tocco</h3>
+          <p>Nel gestionale, nella sezione Agenda Piena, trovi la campagna già pronta: l’anteprima del messaggio, a chi va, con quale offerta. Due pulsanti: «Approva e invia», oppure «Richiedi modifica» per chiedere a parole cosa cambiare. I messaggi partono dal WhatsApp del tuo salone, con il tuo nome.</p>
+        </li>
+        <li class="step glow reveal">
+          <span class="num">4</span>
+          <h3>I numeri veri, sempre aggiornati</h3>
+          <p>Ogni messaggio ha un link personale: chi conferma si prende il posto e l’appuntamento entra in agenda da solo. Il report nel gestionale si aggiorna da solo ogni giorno, e ci entra solo ciò che è entrato davvero in cassa: appuntamenti presi e offerte usate. Niente numeri gonfiati.</p>
+        </li>
+      </ol>
+      <p class="swipe-hint" aria-hidden="true">Scorri per vedere tutti e 4 i passi →</p>
+
+      <div class="promise reveal">
+        <p>«Niente parte senza il tuo sì.»</p>
+        <small>Le campagne partono solo quando le approvi. Promemoria, conferme e richiesta di recensione sono automatismi che accendi una volta e puoi spegnere quando vuoi.</small>
+      </div>
+      <div class="cta-mid reveal"><span>Vuoi vedere come funzionerebbe sul tuo salone?</span><a class="btn btn-gold btn-sm" href="https://wa.me/393387505153?text=Ciao%20Steven%2C%20ho%20visto%20il%20sito%20di%20Sistema%20Agenda%20Piena%20e%20vorrei%20capire%20se%20fa%20per%20il%20mio%20salone.">Scrivimi su WhatsApp</a></div>
+    </div>
+  </section>
+
+  <!-- ============ CHI C'È DIETRO ============ -->
+  <section class="section">
+    <div class="container about" id="chi-sono">
+      <div class="portrait-wrap reveal">
+        <div class="portrait">
+          <img src="assets/steven-russo.jpg" srcset="assets/steven-russo.jpg 880w, assets/steven-russo@2x.jpg 1760w" sizes="(min-width:920px) 34vw, 90vw" width="880" height="1100" alt="Steven Russo, fondatore di Sistema Agenda Piena" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p class="eyebrow">Chi c’è dietro</p>
+        <h2 style="font-size:clamp(34px,4.2vw,56px);line-height:1.07;margin:0 0 26px">Il lavoro lo faccio io. <span class="gold-text">E ci metto la faccia.</span></h2>
+        <p>Sono <strong>Steven Russo</strong>. Ho creato Sistema Agenda Piena per un problema che chiunque gestisca un salone conosce bene: l’agenda che si svuota senza che nessuno se ne accorga in tempo, e i clienti che si perdono per strada.</p>
+        <p>Non vendo un programma per poi sparire. <strong>Seguo ogni salone personalmente</strong>: metto in ordine l’archivio, scrivo i messaggi, leggo i numeri e ti dico cosa sta funzionando e cosa no. Ci sentiamo in videochiamata e su WhatsApp ogni volta che serve, ovunque sia il tuo salone; con i primi saloni di Milano e provincia ci vediamo anche di persona.</p>
+        <div class="signature">
+          <b>Steven Russo</b>
+          <span>Fondatore<br>Paderno Dugnano (MI)</span>
+        </div>
+        <div class="facts">
+          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m22 8-6 4 6 4V8z"/></svg>Videochiamata e WhatsApp, in tutta Italia</span>
+          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Di persona con i primi saloni di Milano e provincia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MINI-DIAGNOSI ============ -->
+  <section class="section">
+    <div class="container" id="diagnosi">
+      <div class="section-head reveal">
+        <p class="eyebrow">Diagnosi in 30 secondi</p>
+        <h2>Quattro domande, e sai se fa per te.</h2>
+        <p>Quattro domande, un tocco ciascuna. Alla fine, se vuoi, me le mandi su WhatsApp e ricevi un parere onesto sui tuoi numeri. Niente viene salvato: viaggia solo nel messaggio che decidi di inviare tu.</p>
+      </div>
+
+      <div class="diag glow reveal">
+        <div class="diag-q">
+          <div class="qs">
+            <div class="q" data-q="attivita">
+              <span>Domanda 1 di 4</span>
+              <h3>Che attività hai?</h3>
+              <div class="opts">
+                <button class="opt" type="button" aria-pressed="false">Centro estetico</button>
+                <button class="opt" type="button" aria-pressed="false">Parrucchiere</button>
+                <button class="opt" type="button" aria-pressed="false">Laser o medicina estetica</button>
+                <button class="opt" type="button" aria-pressed="false">Nail o lash studio</button>
+                <button class="opt" type="button" aria-pressed="false">Altro su appuntamento</button>
+              </div>
+            </div>
+            <div class="q" data-q="noshow">
+              <span>Domanda 2 di 4</span>
+              <h3>In una settimana normale, quanti appuntamenti saltano o restano vuoti?</h3>
+              <div class="opts">
+                <button class="opt" type="button" aria-pressed="false" data-w="0">Quasi nessuno</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="1">1 o 2</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="2">Da 3 a 5</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="3">Più di 5</button>
+              </div>
+            </div>
+            <div class="q" data-q="scontrino">
+              <span>Domanda 3 di 4</span>
+              <h3>Quanto vale, in media, un appuntamento da te?</h3>
+              <div class="opts">
+                <button class="opt" type="button" aria-pressed="false" data-w="0">Meno di 40 €</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="1">40–70 €</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="2">70–120 €</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="3">Più di 120 €</button>
+              </div>
+            </div>
+            <div class="q" data-q="fermi">
+              <span>Domanda 4 di 4</span>
+              <h3>Quante persone non vedi da più di tre mesi?</h3>
+              <div class="opts">
+                <button class="opt" type="button" aria-pressed="false" data-w="1">Non lo so</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="0">Poche</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="2">Parecchie</button>
+                <button class="opt" type="button" aria-pressed="false" data-w="3">Tantissime</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="diag-r" aria-live="polite">
+          <span class="label">Il parere, in una riga</span>
+          <p id="diag-text">Rispondi alle quattro domande: qui compare cosa ne penso.</p>
+          <span class="hint" id="diag-hint">Poi, se vuoi, me le mandi con un tocco.</span>
+          <a class="btn btn-gold" id="diag-btn" aria-disabled="true" tabindex="-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+            Manda le risposte su WhatsApp
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -434,86 +570,6 @@
       <div class="hidden-cost glow reveal">
         <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg></span>
         <p><strong>E il conto di chi se ne va è il più sottovalutato.</strong> Un cliente perso a marzo manca anche a ottobre, e anche l’anno prossimo. Il calcolatore lo conta una volta sola: la realtà, no.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ COME FUNZIONA ============ -->
-  <section class="section light">
-    <div class="container" id="come-funziona">
-      <div class="section-head center reveal">
-        <p class="eyebrow">Come funziona</p>
-        <h2>Il tuo reparto marketing. Senza assumere nessuno.</h2>
-        <p>Le altre piattaforme ti danno uno strumento e ti lasciano il lavoro. Io il lavoro lo faccio per te, ogni settimana, con un sistema che manda promemoria e conferme da solo: tu guardi, approvi e incassi.</p>
-      </div>
-
-      <ol class="steps">
-        <li class="step glow reveal">
-          <span class="num">1</span>
-          <h3>Metto in ordine il tuo archivio</h3>
-          <p>Quaderno, rubrica o gestionale: raccolgo tutto, tolgo i doppioni e divido chi è attivo, chi si sta allontanando e chi non torna da tempo. Sai finalmente chi hai davvero.</p>
-        </li>
-        <li class="step glow reveal">
-          <span class="num">2</span>
-          <h3>Scrivo io messaggi e offerte</h3>
-          <p>Ogni campagna è pensata sul tuo salone, sui tuoi servizi e sui tuoi prezzi, con il tuo tono. Nessuno viene ricontattato troppo spesso: la tua reputazione viene prima.</p>
-        </li>
-        <li class="step glow reveal">
-          <span class="num">3</span>
-          <h3>Tu approvi con un tocco</h3>
-          <p>Nel gestionale, nella sezione Agenda Piena, trovi la campagna già pronta: l’anteprima del messaggio, a chi va, con quale offerta. Due pulsanti: «Approva e invia», oppure «Modifica» per chiedere a parole cosa cambiare. I messaggi partono dal WhatsApp del tuo salone, con il tuo nome.</p>
-        </li>
-        <li class="step glow reveal">
-          <span class="num">4</span>
-          <h3>I numeri veri, sempre aggiornati</h3>
-          <p>Ogni messaggio ha un link personale: chi conferma si prende il posto e l’appuntamento entra in agenda da solo. Il report nel gestionale si aggiorna da solo ogni giorno, e ci entra solo ciò che è entrato davvero in cassa: appuntamenti presi e offerte usate. Niente numeri gonfiati.</p>
-        </li>
-      </ol>
-
-      <div class="promise reveal">
-        <p>«Niente parte senza il tuo sì.»</p>
-        <small>Le campagne partono solo quando le approvi. Promemoria, conferme e richiesta di recensione sono automatismi che accendi una volta e puoi spegnere quando vuoi.</small>
-      </div>
-      <div class="cta-mid reveal"><span>Vuoi vedere come funzionerebbe sul tuo salone?</span><a class="btn btn-gold btn-sm" href="https://wa.me/393387505153?text=Ciao%20Steven%2C%20ho%20visto%20il%20sito%20di%20Sistema%20Agenda%20Piena%20e%20vorrei%20capire%20se%20fa%20per%20il%20mio%20salone.">Scrivimi su WhatsApp</a></div>
-    </div>
-  </section>
-
-  <!-- ============ COME SI PARTE ============ -->
-  <section class="section">
-    <div class="container" id="come-si-parte">
-      <div class="section-head reveal">
-        <p class="eyebrow">Come si parte</p>
-        <h2>Dal tuo sì al primo messaggio: cinque passi, senza sorprese.</h2>
-        <p>Nessuna data promessa: ti dico cosa è pronto e cosa arriva. Per partire, da te serve una videochiamata di trenta minuti; poi un tocco per ogni campagna e una chiamata a settimana.</p>
-      </div>
-      <div class="start">
-        <ol class="start-steps reveal">
-          <li><i>1</i><div><b>Firmiamo, e mi mandi la lista clienti</b><span>Contratto e accordo sui dati, pronti da firmare. Poi la tua lista clienti in qualsiasi forma: un file, il gestionale di prima, anche le foto del quaderno.</span></div></li>
-          <li><i>2</i><div><b>Trenta minuti in videochiamata</b><span>Mi racconti il salone: servizi, prezzi, orari, chi fa cosa. Colleghiamo il WhatsApp del salone e la scheda Google. Fine della parte tua per partire.</span></div></li>
-          <li><i>3</i><div><b>Metto in ordine l’archivio</b><span>Importo clienti, servizi e prezzi, tolgo i doppioni, divido chi è attivo, chi si sta allontanando e chi non torna. Preparo le prime campagne.</span></div></li>
-          <li><i>4</i><div><b>Tu approvi</b><span>Le trovi in Agenda Piena, con l’anteprima del messaggio e l’offerta. «Approva e invia», oppure «Modifica» per dirmi a parole cosa cambiare.</span></div></li>
-          <li><i>5</i><div><b>Parte il primo giro, e da lì ogni settimana</b><span>I primi messaggi vanno a un gruppo piccolo, poi si allarga. Ci sentiamo ogni settimana; il report nel gestionale si aggiorna da solo ogni giorno.</span></div></li>
-        </ol>
-        <aside class="start-side reveal">
-          <div class="card glow">
-            <h3>Cosa mi serve da te</h3>
-            <ul class="tick">
-              <li>La lista clienti, in qualsiasi forma</li>
-              <li>Il numero WhatsApp del salone</li>
-              <li>L’accesso alla scheda Google, per il link delle recensioni</li>
-              <li>Listino e orari</li>
-              <li>Trenta minuti in videochiamata</li>
-            </ul>
-          </div>
-          <div class="card glow">
-            <h3>Cosa firmi</h3>
-            <ul class="tick">
-              <li>Il contratto del servizio: tre, sei o dodici mesi</li>
-              <li>L’accordo sul trattamento dei dati (nomina a responsabile)</li>
-            </ul>
-            <p class="start-note">Tutti e due li preparo io, pronti da firmare. Li leggi con calma prima.</p>
-          </div>
-        </aside>
       </div>
     </div>
   </section>
@@ -639,7 +695,7 @@
 
       <div class="app-strong reveal">
         <div class="strong glow"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span><b>Calendario a corsie, una per persona</b><span>Chi è confermato e chi no, ore libere e incasso atteso della giornata: tutto su una schermata, da computer e da telefono.</span></div>
-        <div class="strong glow"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.2 5.4L20 9l-4.4 3.9L17 19l-5-3-5 3 1.4-6.1L4 9l5.8-.6z"/></svg></span><b>Agenda Piena: le campagne arrivano pronte</b><span>A chi va, l’offerta, l’anteprima del messaggio. «Approva e invia», oppure «Modifica» per chiedere a parole cosa cambiare. Niente parte senza il tuo sì.</span></div>
+        <div class="strong glow"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.2 5.4L20 9l-4.4 3.9L17 19l-5-3-5 3 1.4-6.1L4 9l5.8-.6z"/></svg></span><b>Agenda Piena: le campagne arrivano pronte</b><span>A chi va, l’offerta, l’anteprima del messaggio. «Approva e invia», oppure «Richiedi modifica» per chiedere a parole cosa cambiare. Niente parte senza il tuo sì.</span></div>
         <div class="strong glow"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M8 17V9M13 17V5M18 17v-7"/></svg></span><b>Report economico che dice la verità</b><span>Fatturato, quanto ha portato il sistema, occupazione, no-show, chi rende di più in squadra e quali servizi. Si aggiorna ogni giorno da solo. Mai numeri gonfiati.</span></div>
       </div>
 
@@ -707,7 +763,7 @@
                       <div class="g-sum">liberi nelle <b>prossime 48h</b> · Manicure <b>€26</b> (da €30) · <b>−15%</b></div>
                       <div class="g-prev"><small>Anteprima · Il tuo salone</small>Ciao [nome]! Si è liberato un posto per la manicure a €26 (invece di €30). Prenoti in un tap 👉 (link personale)</div>
                       <div class="g-state" id="g-state-1"><i>◷</i>In attesa del tuo via libera</div>
-                      <div class="g-acts" id="g-acts-1"><span class="g-approve" id="app-approve">✓ Approva e invia</span><span class="g-mod">Modifica</span></div>
+                      <div class="g-acts" id="g-acts-1"><span class="g-approve" id="app-approve">✓ Approva e invia</span><span class="g-mod">Richiedi modifica</span></div>
                     </div>
                     <div class="g-camp">
                       <div class="g-ct"><i class="ci" style="background:rgba(58,154,166,.22);color:#7fd3dc">◈</i><span class="g-type" style="color:#7fd3dc;border-color:rgba(58,154,166,.5)">Broadcast</span><span class="g-new-b">Nuova</span></div>
@@ -716,7 +772,7 @@
                       <div class="g-sum">da <b>lunedì</b> · <b>€55</b> · prezzo pieno · posti limitati</div>
                       <div class="g-prev"><small>Anteprima · Il tuo salone</small>Ciao [nome]! Da lunedì arriva il nuovo trattamento viso illuminante (€55). Posti limitati — prenota 👉 (link personale)</div>
                       <div class="g-state"><i>◷</i>In attesa del tuo via libera</div>
-                      <div class="g-acts"><span class="g-approve">✓ Approva e invia</span><span class="g-mod">Modifica</span></div>
+                      <div class="g-acts"><span class="g-approve">✓ Approva e invia</span><span class="g-mod">Richiedi modifica</span></div>
                     </div>
                     <div class="g-camp">
                       <div class="g-ct"><i class="ci" style="background:rgba(138,122,242,.22);color:#b8aef8">↻</i><span class="g-type" style="color:#b8aef8;border-color:rgba(138,122,242,.5)">Riattivazione</span><span class="g-new-b">Nuova</span></div>
@@ -725,7 +781,7 @@
                       <div class="g-sum">fermi da oltre <b>2× il loro ritmo</b> · sconto <b>−20%</b> · valido 30 giorni</div>
                       <div class="g-prev"><small>Anteprima · Il tuo salone</small>Ciao [nome]! È un po’ che non ci vediamo. Ti riservo −20% sul prossimo appuntamento, fino al 15/10 👉 (link personale)</div>
                       <div class="g-state"><i>◷</i>In attesa del tuo via libera</div>
-                      <div class="g-acts"><span class="g-approve">✓ Approva e invia</span><span class="g-mod">Modifica</span></div>
+                      <div class="g-acts"><span class="g-approve">✓ Approva e invia</span><span class="g-mod">Richiedi modifica</span></div>
                     </div>
                   </div>
                   <div class="g-bottom">
@@ -796,30 +852,70 @@
     </div>
   </section>
 
-  <!-- ============ CLIENTI NUOVI ============ -->
+  <!-- ============ COME SI PARTE ============ -->
   <section class="section">
-    <div class="container" id="clienti-nuovi">
+    <div class="container" id="come-si-parte">
       <div class="section-head reveal">
-        <p class="eyebrow">Non solo chi hai già</p>
-        <h2>Nasce per far rendere i tuoi clienti. <span class="gold-text">E ne porta di nuovi, dalla porta giusta.</span></h2>
-        <p>Il modo più economico per avere clienti nuovi è che a parlare di te siano quelli che ti vogliono bene. Lavoro su due leve: una da subito, una come passo successivo.</p>
+        <p class="eyebrow">Come si parte</p>
+        <h2>Dal tuo sì al primo messaggio: cinque passi, senza sorprese.</h2>
+        <p>Nessuna data promessa: ti dico cosa è pronto e cosa arriva. Per partire, da te serve una videochiamata di trenta minuti; poi un tocco per ogni campagna e una chiamata a settimana.</p>
       </div>
+      <div class="start">
+        <ol class="start-steps reveal">
+          <li><i>1</i><div><b>Firmiamo, e mi mandi la lista clienti</b><span>Contratto e accordo sui dati, pronti da firmare. Poi la tua lista clienti in qualsiasi forma: un file, il gestionale di prima, anche le foto del quaderno.</span></div></li>
+          <li><i>2</i><div><b>Trenta minuti in videochiamata</b><span>Mi racconti il salone: servizi, prezzi, orari, chi fa cosa. Colleghiamo il WhatsApp del salone e la scheda Google. Fine della parte tua per partire.</span></div></li>
+          <li><i>3</i><div><b>Metto in ordine l’archivio</b><span>Importo clienti, servizi e prezzi, tolgo i doppioni, divido chi è attivo, chi si sta allontanando e chi non torna. Preparo le prime campagne.</span></div></li>
+          <li><i>4</i><div><b>Tu approvi</b><span>Le trovi in Agenda Piena, con l’anteprima del messaggio e l’offerta. «Approva e invia», oppure «Richiedi modifica» per dirmi a parole cosa cambiare.</span></div></li>
+          <li><i>5</i><div><b>Parte il primo giro, e da lì ogni settimana</b><span>I primi messaggi vanno a un gruppo piccolo, poi si allarga. Ci sentiamo ogni settimana; il report nel gestionale si aggiorna da solo ogni giorno.</span></div></li>
+        </ol>
+        <aside class="start-side reveal">
+          <div class="card glow">
+            <h3>Cosa mi serve da te</h3>
+            <ul class="tick">
+              <li>La lista clienti, in qualsiasi forma</li>
+              <li>Il numero WhatsApp del salone</li>
+              <li>L’accesso alla scheda Google, per il link delle recensioni</li>
+              <li>Listino e orari</li>
+              <li>Trenta minuti in videochiamata</li>
+            </ul>
+          </div>
+          <div class="card glow">
+            <h3>Cosa firmi</h3>
+            <ul class="tick">
+              <li>Il contratto del servizio: tre, sei o dodici mesi</li>
+              <li>L’accordo sul trattamento dei dati (nomina a responsabile)</li>
+            </ul>
+            <p class="start-note">Tutti e due li preparo io, pronti da firmare. Li leggi con calma prima.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
 
-      <div class="two">
-        <article class="card glow reveal">
-          <span class="badge">Dal primo mese</span>
-          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
-          <h3>Recensioni Google, chieste al momento giusto</h3>
-          <p>Chi cerca «centro estetico» o «parrucchiere» vicino a sé sceglie in base alle stelle. Chiedo la recensione il giorno dopo, quando l’esperienza è ancora fresca, con un link che si apre in un tocco. Ogni recensione vera in più è una vetrina che lavora anche di notte.</p>
-        </article>
-        <article class="card glow reveal">
-          <span class="badge soon">Il passo successivo</span>
-          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
-          <h3>Il passaparola: porta un’amica o un amico</h3>
-          <p>Quando il tuo archivio lavora bene, passo alle campagne di passaparola: chi ti vuole bene invita una persona nuova e ci guadagnano tutte e due. Le condizioni le decidiamo insieme, sui tuoi margini. Non lo prometto per il primo mese: lo costruiamo quando è il momento.</p>
-        </article>
+  <!-- ============ FONDATORI ============ -->
+  <section class="section">
+    <div class="container" id="fondatori">
+      <div class="founders glow reveal">
+        <div class="founders-grid">
+          <div>
+            <p class="eyebrow">Programma Fondatori</p>
+            <h2>Pochi saloni. Le condizioni migliori che farò mai. In cambio, la tua voce nel servizio.</h2>
+            <p>Sistema Agenda Piena è appena nato, e preferisco dirlo chiaramente. Chi entra adesso non compra un servizio finito: entra da fondatore, con condizioni che dopo non rifarò, e ogni settimana mi dice cosa serve davvero in salone. Quello che chiedi tu entra nel servizio prima di tutto il resto.</p>
+            <ul class="checks">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Condizioni riservate ai fondatori, che non rifarò</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Una chiamata a settimana: quello che ti serve entra nel servizio</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Trasparenza totale: ti mostro cosa è pronto e cosa sto costruendo</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Scegli tu la durata: tre, sei o dodici mesi. Alla scadenza decidi tu se continuare, senza rinnovi a sorpresa</li>
+            </ul>
+          </div>
+          <div class="seal-card">
+            <div class="seal" aria-hidden="true"><span>✦</span></div>
+            <span class="t">Posti limitati</span>
+            <span class="s">Quando i posti da fondatore finiscono, le condizioni tornano quelle piene</span>
+            <a class="btn btn-gold" href="https://wa.me/393387505153?text=Ciao%20Steven%2C%20vorrei%20candidare%20il%20mio%20salone%20al%20Programma%20Fondatori%20di%20Sistema%20Agenda%20Piena.">Candida il tuo salone</a>
+          </div>
+        </div>
       </div>
-      <p class="note-line reveal">Non ti porto clienti da un portale, a commissione. Ti aiuto a farli arrivare da chi già si fida di te: costano meno e restano di più.</p>
     </div>
   </section>
 
@@ -881,6 +977,33 @@
     </div>
   </section>
 
+  <!-- ============ CLIENTI NUOVI ============ -->
+  <section class="section">
+    <div class="container" id="clienti-nuovi">
+      <div class="section-head reveal">
+        <p class="eyebrow">Non solo chi hai già</p>
+        <h2>Nasce per far rendere i tuoi clienti. <span class="gold-text">E ne porta di nuovi, dalla porta giusta.</span></h2>
+        <p>Il modo più economico per avere clienti nuovi è che a parlare di te siano quelli che ti vogliono bene. Lavoro su due leve: una da subito, una come passo successivo.</p>
+      </div>
+
+      <div class="two">
+        <article class="card glow reveal">
+          <span class="badge">Dal primo mese</span>
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></span>
+          <h3>Recensioni Google, chieste al momento giusto</h3>
+          <p>Chi cerca «centro estetico» o «parrucchiere» vicino a sé sceglie in base alle stelle. Chiedo la recensione il giorno dopo, quando l’esperienza è ancora fresca, con un link che si apre in un tocco. Ogni recensione vera in più è una vetrina che lavora anche di notte.</p>
+        </article>
+        <article class="card glow reveal">
+          <span class="badge soon">Il passo successivo</span>
+          <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          <h3>Il passaparola: porta un’amica o un amico</h3>
+          <p>Quando il tuo archivio lavora bene, passo alle campagne di passaparola: chi ti vuole bene invita una persona nuova e ci guadagnano tutte e due. Le condizioni le decidiamo insieme, sui tuoi margini. Non lo prometto per il primo mese: lo costruiamo quando è il momento.</p>
+        </article>
+      </div>
+      <p class="note-line reveal">Non ti porto clienti da un portale, a commissione. Ti aiuto a farli arrivare da chi già si fida di te: costano meno e restano di più.</p>
+    </div>
+  </section>
+
   <!-- ============ DATI E PRIVACY ============ -->
   <section class="section">
     <div class="container" id="dati">
@@ -912,169 +1035,6 @@
         </article>
       </div>
       <p class="trust-note reveal"><strong>I documenti li preparo io, pronti da firmare:</strong> l’accordo sul trattamento dei dati, l’informativa per i tuoi clienti e il testo del consenso. Tu li leggi, li approvi e li firmi. Niente da scrivere da parte tua.</p>
-    </div>
-  </section>
-
-  <!-- ============ MINI-DIAGNOSI ============ -->
-  <section class="section">
-    <div class="container" id="diagnosi">
-      <div class="section-head reveal">
-        <p class="eyebrow">Diagnosi in 30 secondi</p>
-        <h2>Quattro domande, e sai se fa per te.</h2>
-        <p>Quattro domande, un tocco ciascuna. Alla fine, se vuoi, me le mandi su WhatsApp e ricevi un parere onesto sui tuoi numeri. Niente viene salvato: viaggia solo nel messaggio che decidi di inviare tu.</p>
-      </div>
-
-      <div class="diag glow reveal">
-        <div class="diag-q">
-          <div class="qs">
-            <div class="q" data-q="attivita">
-              <span>Domanda 1 di 4</span>
-              <h3>Che attività hai?</h3>
-              <div class="opts">
-                <button class="opt" type="button" aria-pressed="false">Centro estetico</button>
-                <button class="opt" type="button" aria-pressed="false">Parrucchiere</button>
-                <button class="opt" type="button" aria-pressed="false">Laser o medicina estetica</button>
-                <button class="opt" type="button" aria-pressed="false">Nail o lash studio</button>
-                <button class="opt" type="button" aria-pressed="false">Altro su appuntamento</button>
-              </div>
-            </div>
-            <div class="q" data-q="noshow">
-              <span>Domanda 2 di 4</span>
-              <h3>In una settimana normale, quanti appuntamenti saltano o restano vuoti?</h3>
-              <div class="opts">
-                <button class="opt" type="button" aria-pressed="false" data-w="0">Quasi nessuno</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="1">1 o 2</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="2">Da 3 a 5</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="3">Più di 5</button>
-              </div>
-            </div>
-            <div class="q" data-q="scontrino">
-              <span>Domanda 3 di 4</span>
-              <h3>Quanto vale, in media, un appuntamento da te?</h3>
-              <div class="opts">
-                <button class="opt" type="button" aria-pressed="false" data-w="0">Meno di 40 €</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="1">40–70 €</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="2">70–120 €</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="3">Più di 120 €</button>
-              </div>
-            </div>
-            <div class="q" data-q="fermi">
-              <span>Domanda 4 di 4</span>
-              <h3>Quante persone non vedi da più di tre mesi?</h3>
-              <div class="opts">
-                <button class="opt" type="button" aria-pressed="false" data-w="1">Non lo so</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="0">Poche</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="2">Parecchie</button>
-                <button class="opt" type="button" aria-pressed="false" data-w="3">Tantissime</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="diag-r" aria-live="polite">
-          <span class="label">Il parere, in una riga</span>
-          <p id="diag-text">Rispondi alle quattro domande: qui compare cosa ne penso.</p>
-          <span class="hint" id="diag-hint">Poi, se vuoi, me le mandi con un tocco.</span>
-          <a class="btn btn-gold" id="diag-btn" aria-disabled="true" tabindex="-1">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
-            Manda le risposte su WhatsApp
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CHI C'È DIETRO ============ -->
-  <section class="section">
-    <div class="container about" id="chi-sono">
-      <div class="portrait-wrap reveal">
-        <div class="portrait">
-          <img src="assets/steven-russo.jpg" srcset="assets/steven-russo.jpg 880w, assets/steven-russo@2x.jpg 1760w" sizes="(min-width:920px) 34vw, 90vw" width="880" height="1100" alt="Steven Russo, fondatore di Sistema Agenda Piena" loading="lazy" decoding="async">
-        </div>
-      </div>
-      <div class="about-text reveal">
-        <p class="eyebrow">Chi c’è dietro</p>
-        <h2 style="font-size:clamp(34px,4.2vw,56px);line-height:1.07;margin:0 0 26px">Il lavoro lo faccio io. <span class="gold-text">E ci metto la faccia.</span></h2>
-        <p>Sono <strong>Steven Russo</strong>. Ho creato Sistema Agenda Piena per un problema che chiunque gestisca un salone conosce bene: l’agenda che si svuota senza che nessuno se ne accorga in tempo, e i clienti che si perdono per strada.</p>
-        <p>Non vendo un programma per poi sparire. <strong>Seguo ogni salone personalmente</strong>: metto in ordine l’archivio, scrivo i messaggi, leggo i numeri e ti dico cosa sta funzionando e cosa no. Ci sentiamo in videochiamata e su WhatsApp ogni volta che serve, ovunque sia il tuo salone; con i primi saloni di Milano e provincia ci vediamo anche di persona.</p>
-        <div class="signature">
-          <b>Steven Russo</b>
-          <span>Fondatore<br>Paderno Dugnano (MI)</span>
-        </div>
-        <div class="facts">
-          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m22 8-6 4 6 4V8z"/></svg>Videochiamata e WhatsApp, in tutta Italia</span>
-          <span class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>Di persona con i primi saloni di Milano e provincia</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ FONDATORI ============ -->
-  <section class="section">
-    <div class="container" id="fondatori">
-      <div class="founders glow reveal">
-        <div class="founders-grid">
-          <div>
-            <p class="eyebrow">Programma Fondatori</p>
-            <h2>Pochi saloni. Le condizioni migliori che farò mai. In cambio, la tua voce nel servizio.</h2>
-            <p>Sistema Agenda Piena è appena nato, e preferisco dirlo chiaramente. Chi entra adesso non compra un servizio finito: entra da fondatore, con condizioni che dopo non rifarò, e ogni settimana mi dice cosa serve davvero in salone. Quello che chiedi tu entra nel servizio prima di tutto il resto.</p>
-            <ul class="checks">
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Condizioni riservate ai fondatori, che non rifarò</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Una chiamata a settimana: quello che ti serve entra nel servizio</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Trasparenza totale: ti mostro cosa è pronto e cosa sto costruendo</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Scegli tu la durata: tre, sei o dodici mesi. Alla scadenza decidi tu se continuare, senza rinnovi a sorpresa</li>
-            </ul>
-          </div>
-          <div class="seal-card">
-            <div class="seal" aria-hidden="true"><span>✦</span></div>
-            <span class="t">Posti limitati</span>
-            <span class="s">Quando i posti da fondatore finiscono, le condizioni tornano quelle piene</span>
-            <a class="btn btn-gold" href="https://wa.me/393387505153?text=Ciao%20Steven%2C%20vorrei%20candidare%20il%20mio%20salone%20al%20Programma%20Fondatori%20di%20Sistema%20Agenda%20Piena.">Candida il tuo salone</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ GUIDE ============ -->
-  <section class="section">
-    <div class="container" id="guide">
-      <div class="section-head reveal">
-        <p class="eyebrow">Guide per chi gestisce un salone</p>
-        <h2>Cinque problemi, cinque soluzioni pratiche.</h2>
-        <p>Cosa fare da subito, anche senza di me. <a href="guide/" style="color:var(--gold-l)">Tutte le guide</a></p>
-      </div>
-      <div class="guides">
-        <a class="guide-card glow reveal" href="guide/appuntamenti-mancati.html">
-          <span class="tag">No-show</span>
-          <h3>Clienti che non si presentano: come ridurre gli appuntamenti mancati</h3>
-          <p>Perché succede, quanto costa davvero e le sei abitudini che lo riducono.</p>
-          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
-        <a class="guide-card glow reveal" href="guide/clienti-che-non-tornano.html">
-          <span class="tag">Clienti che non tornano</span>
-          <h3>Clienti che non tornano più: come riattivarli senza essere insistenti</h3>
-          <p>Come trovarli nel tuo archivio, cosa scrivere e quando.</p>
-          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
-        <a class="guide-card glow reveal" href="guide/buchi-in-agenda.html">
-          <span class="tag">Disdette</span>
-          <h3>Disdette all’ultimo minuto: come riempire i buchi in agenda</h3>
-          <p>Cosa fare nella prima ora dopo una disdetta, senza abituare nessuno allo sconto.</p>
-          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
-        <a class="guide-card glow reveal" href="guide/recensioni-google.html">
-          <span class="tag">Recensioni</span>
-          <h3>Come avere più recensioni Google per il tuo salone</h3>
-          <p>Quando chiederle, come, e gli errori che fanno perdere la voglia di scriverle.</p>
-          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
-        <a class="guide-card glow reveal" href="guide/passaparola.html">
-          <span class="tag">Passaparola</span>
-          <h3>Il passaparola che funziona: porta un’amica o un amico, senza svendere</h3>
-          <p>Come premiare chi ti presenta qualcuno senza trasformare il salone in un discount.</p>
-          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
-      </div>
     </div>
   </section>
 
@@ -1143,6 +1103,49 @@
           <summary>Con quanti saloni lavori oggi?</summary>
           <div class="answer"><p>Sistema Agenda Piena è appena nato e sto accogliendo i primi saloni fondatori, a condizioni riservate. Alla prima chiamata ti mostro il gestionale e ti dico con precisione cosa è già pronto e cosa è in costruzione.</p></div>
         </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GUIDE ============ -->
+  <section class="section">
+    <div class="container" id="guide">
+      <div class="section-head reveal">
+        <p class="eyebrow">Guide per chi gestisce un salone</p>
+        <h2>Cinque problemi, cinque soluzioni pratiche.</h2>
+        <p>Cosa fare da subito, anche senza di me. <a href="guide/" style="color:var(--gold-l)">Tutte le guide</a></p>
+      </div>
+      <div class="guides">
+        <a class="guide-card glow reveal" href="guide/appuntamenti-mancati.html">
+          <span class="tag">No-show</span>
+          <h3>Clienti che non si presentano: come ridurre gli appuntamenti mancati</h3>
+          <p>Perché succede, quanto costa davvero e le sei abitudini che lo riducono.</p>
+          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="guide-card glow reveal" href="guide/clienti-che-non-tornano.html">
+          <span class="tag">Clienti che non tornano</span>
+          <h3>Clienti che non tornano più: come riattivarli senza essere insistenti</h3>
+          <p>Come trovarli nel tuo archivio, cosa scrivere e quando.</p>
+          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="guide-card glow reveal" href="guide/buchi-in-agenda.html">
+          <span class="tag">Disdette</span>
+          <h3>Disdette all’ultimo minuto: come riempire i buchi in agenda</h3>
+          <p>Cosa fare nella prima ora dopo una disdetta, senza abituare nessuno allo sconto.</p>
+          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="guide-card glow reveal" href="guide/recensioni-google.html">
+          <span class="tag">Recensioni</span>
+          <h3>Come avere più recensioni Google per il tuo salone</h3>
+          <p>Quando chiederle, come, e gli errori che fanno perdere la voglia di scriverle.</p>
+          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <a class="guide-card glow reveal" href="guide/passaparola.html">
+          <span class="tag">Passaparola</span>
+          <h3>Il passaparola che funziona: porta un’amica o un amico, senza svendere</h3>
+          <p>Come premiare chi ti presenta qualcuno senza trasformare il salone in un discount.</p>
+          <span class="more">Leggi la guida <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
       </div>
     </div>
   </section>
@@ -1328,33 +1331,52 @@ document.documentElement.classList.add('js');
     });
   });
 
-  // Apertura: il processo intero. Disdetta → il sistema scrive a chi può venire → posto ripreso dal link → richiesta di recensione. In ciclo.
+  // Apertura: la lista delle chat del salone, una persona per chat. Promemoria → disdetta → posto riproposto e ripreso dal link → richiesta di recensione. In ciclo.
   var chat = document.getElementById('chat');
   if (chat){
-    var righe = Array.prototype.slice.call(chat.children);
-    var slot15 = document.getElementById('slot-15'), slot16 = document.querySelector('.agenda-card .slot[data-s="3"]');
+    var righeWa = Array.prototype.slice.call(chat.querySelectorAll('.wa-row'));
+    var inizio = righeWa.map(function(r){ return { prev: r.querySelector('.wa-prev').innerHTML, ora: r.querySelector('time').textContent }; });
+    var ordine = [];
+    var slot15 = document.getElementById('slot-15');
     var fcs = [document.querySelector('.fc-1'), document.querySelector('.fc-2'), document.querySelector('.fc-3')];
+    var soloUna = window.matchMedia('(max-width:620px)');
     var ht = [];
+    var ALTEZZA_RIGA = 66;
+    var TU = 'Tu: <span class="tk">✓✓</span> ';
     function hdopo(ms, fn){ ht.push(setTimeout(fn, ms)); }
-    function mostraBolla(sel){ var el = chat.querySelector(sel); if (el) el.classList.add('shown'); }
+    function posiziona(){ ordine.forEach(function(r, i){ r.style.top = (i * ALTEZZA_RIGA) + 'px'; }); }
+    function aggiorna(c, testo, ora, daLeggere){
+      var r = chat.querySelector('.wa-row[data-c="' + c + '"]'); if (!r) return;
+      r.querySelector('.wa-prev').innerHTML = testo;
+      r.querySelector('time').textContent = ora;
+      r.classList.toggle('unread', !!daLeggere);
+      ordine.splice(ordine.indexOf(r), 1); ordine.unshift(r); posiziona();
+    }
+    function mostraCard(i){
+      // sul telefono una notifica alla volta, così non coprono la lista
+      if (soloUna.matches) fcs.forEach(function(f, k){ if (f && k !== i) f.classList.remove('on'); });
+      if (fcs[i]) fcs[i].classList.add('on');
+    }
     function heroReset(){
       ht.forEach(clearTimeout); ht = [];
-      righe.forEach(function(r){ r.classList.toggle('shown', r.classList.contains('day')); });
-      slot15.className = 'slot'; slot15.querySelector('span').textContent = 'Manicure · Anna';
-      slot16.className = 'slot';
+      righeWa.forEach(function(r, i){ r.querySelector('.wa-prev').innerHTML = inizio[i].prev; r.querySelector('time').textContent = inizio[i].ora; r.classList.remove('unread'); });
+      ordine = righeWa.slice(); posiziona();
+      if (slot15){ slot15.className = 'slot'; slot15.querySelector('span').textContent = 'Manicure · Anna'; }
       fcs.forEach(function(f){ if (f) f.classList.remove('on'); });
     }
     function heroCiclo(){
       heroReset();
-      hdopo(900,  function(){ mostraBolla('.bubble.in[data-k="1"]'); });
-      hdopo(1500, function(){ slot15.className = 'slot empty'; slot15.querySelector('span').textContent = 'Libero · disdetta'; if (fcs[0]) fcs[0].classList.add('on'); });
-      hdopo(3000, function(){ mostraBolla('.bubble.out[data-k="2"]'); });
-      hdopo(4600, function(){ mostraBolla('.bubble.in[data-k="2"]'); });
-      hdopo(5300, function(){ slot15.className = 'slot filled'; slot15.querySelector('span').textContent = 'Manicure · Marta'; if (fcs[1]) fcs[1].classList.add('on'); });
-      hdopo(7600, function(){ mostraBolla('.bubble.out[data-k="3"]'); });
-      hdopo(9200, function(){ mostraBolla('.bubble.in[data-k="3"]'); });
-      hdopo(9900, function(){ if (fcs[2]) fcs[2].classList.add('on'); });
-      hdopo(14200, heroCiclo);
+      hdopo(900,   function(){ aggiorna('giulia', TU + 'Ti aspettiamo oggi alle 10:00 per la pulizia viso', '08:00'); });
+      hdopo(2100,  function(){ aggiorna('giulia', 'Perfetto, a dopo! 👍', '08:04', true); });
+      hdopo(3600,  function(){ aggiorna('anna', 'Scusami, alle 15 non riesco a venire 😔', '09:12', true); });
+      hdopo(4200,  function(){ if (slot15){ slot15.className = 'slot empty'; slot15.querySelector('span').textContent = 'Libero · disdetta'; } mostraCard(0); });
+      hdopo(5800,  function(){ aggiorna('marta', TU + 'Si è liberato oggi alle 15:00 per la manicure: è tuo con un tocco 👉', '09:41'); });
+      hdopo(7200,  function(){ aggiorna('marta', 'Preso! Ci vediamo alle 15 🙌', '09:46', true); });
+      hdopo(7800,  function(){ if (slot15){ slot15.className = 'slot filled'; slot15.querySelector('span').textContent = 'Manicure · Marta'; } mostraCard(1); });
+      hdopo(9600,  function(){ aggiorna('elena', TU + 'Com’è andata dopo il massaggio di ieri? Due righe su Google ci aiutano tanto 🙏', '10:30'); });
+      hdopo(11000, function(){ aggiorna('elena', 'Fatto! ⭐⭐⭐⭐⭐', '10:41', true); });
+      hdopo(11600, function(){ mostraCard(2); });
+      hdopo(16000, heroCiclo);
     }
     heroCiclo();
   }

@@ -1036,3 +1036,70 @@ table.compare{width:100%;border-collapse:collapse;min-width:760px}
 /* stato automatismo non ancora attivo, anteprima gestionale */
 .g-off{font-size:10px;padding:3px 8px;border-radius:99px;background:rgba(255,255,255,.06);color:rgba(255,255,255,.55);border:.5px solid rgba(255,255,255,.18)}
 .svc-msg small.svc-msg-2{margin-top:14px;padding-top:12px;border-top:1px solid rgba(233,237,239,.18)}
+
+/* ================= APERTURA: WhatsApp del salone, lista delle chat (19/09) ================= */
+.stage.glassy .screen.wa{background:#fff;color:#111b21;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.stage.glassy .screen.wa .glare{background:linear-gradient(110deg,rgba(255,255,255,.35) 0%,rgba(255,255,255,.08) 28%,transparent 42%)}
+.wa-top{padding:52px 14px 8px;background:#fff}
+.wa-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.wa-title b{font-size:27px;font-weight:700;letter-spacing:-.02em;color:#111b21;line-height:1.1}
+.wa-new{width:26px;height:26px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:18px;line-height:1;font-weight:500}
+.wa-search{height:32px;border-radius:10px;background:#f0f2f5;color:#8696a0;font-size:13px;display:flex;align-items:center;padding:0 12px;margin-bottom:10px}
+.wa-chips{display:flex;gap:6px}
+.wa-chips span{font-size:11.5px;padding:5px 10px;border-radius:999px;background:#f0f2f5;color:#54656f;line-height:1.2}
+.wa-chips span.on{background:#d9fdd3;color:#0a6a4a;font-weight:600}
+.wa-list{position:relative;flex:1;background:#fff}
+.wa-row{position:absolute;left:0;right:0;top:0;height:66px;display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:10px;align-items:center;padding:0 14px;background:#fff;transition:top .6s var(--ease)}
+.wa-row::after{content:"";position:absolute;left:68px;right:0;bottom:0;height:1px;background:#e9edef}
+.wa-av{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:600;font-size:17px;background:var(--a)}
+.wa-mid{min-width:0}
+.wa-mid b{display:block;font-size:14.5px;font-weight:600;color:#111b21;line-height:1.3}
+.wa-prev{display:block;font-size:12.5px;color:#667781;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wa-prev .tk{color:#53bdeb;letter-spacing:-.18em;margin-right:.18em}
+.wa-meta{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.wa-meta time{font-size:11px;color:#667781}
+.wa-badge{min-width:18px;height:18px;border-radius:9px;background:#25d366;color:#fff;font-size:11px;font-style:normal;font-weight:600;display:grid;place-items:center;padding:0 5px;opacity:0;transform:scale(.4);transition:opacity .3s,transform .3s}
+.wa-row.unread .wa-badge{opacity:1;transform:scale(1)}
+.wa-row.unread time{color:#1daa61;font-weight:600}
+.wa-row.unread .wa-prev{color:#111b21}
+
+/* telefono: tutto centrato, niente rotazione laterale, una notifica alla volta sotto la lista */
+@media (max-width:620px){
+  .stage.glassy{height:560px}
+  .stage.glassy .stage-inner{transform:rotateX(4deg) scale(.92)}
+  .stage.glassy .phone{margin-left:-145px}
+  .stage.glassy .float-card{left:50%;right:auto;top:auto;bottom:4%;width:min(300px,86vw);margin-left:calc(min(300px,86vw) / -2);white-space:normal}
+  .stage.glassy .fc-1,.stage.glassy .fc-2,.stage.glassy .fc-3{left:50%;right:auto;top:auto;bottom:4%}
+}
+
+/* "Un martedì qualunque" sul telefono: una colonna sola, con la linea che unisce i momenti della giornata */
+@media (max-width:620px){
+  .timeline{grid-template-columns:1fr;gap:20px;padding-left:26px}
+  .timeline::before{display:block;left:5px;right:auto;top:8px;bottom:8px;width:1px;height:auto;background:linear-gradient(180deg,rgba(201,169,110,.55),rgba(201,169,110,.15))}
+  .tl{padding-top:0}
+  .tl::before{left:-26px;top:3px}
+  .tl time{margin-bottom:3px}
+}
+/* notifiche in rilievo: fondo scuro, leggibili anche sopra lo schermo bianco di WhatsApp */
+.stage.glassy .float-card{background:linear-gradient(135deg,rgba(30,30,34,.94),rgba(14,14,16,.92))}
+/* notifiche da computer: dentro lo schermo, a capo se il testo è lungo */
+@media (min-width:621px){
+  .stage.glassy .float-card{white-space:normal;max-width:290px}
+  .stage.glassy .fc-1{right:-2%}.stage.glassy .fc-2{right:-4%}.stage.glassy .fc-3{right:-2%}
+}
+
+/* ================= TELEFONO: convincere nei primi scroll (19/09) ================= */
+.swipe-hint{display:none}
+@media (max-width:620px){
+  /* apertura più compatta: i due pulsanti entrano nella prima schermata */
+  .hero{padding-top:30px}
+  .hero h1{font-size:34px;line-height:1.06;margin:18px 0 16px}
+  .hero .lead{font-size:16px;line-height:1.6}
+  .hero .cta-row{margin-top:22px;gap:12px}
+  /* "Come funziona": i 4 passi affiancati, si scorrono col dito */
+  .steps{display:flex;gap:14px;margin-top:40px;margin-inline:calc(-1 * clamp(20px,4.5vw,56px));padding:4px clamp(20px,4.5vw,56px) 14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .steps::-webkit-scrollbar{display:none}
+  .steps .step{flex:0 0 84%;scroll-snap-align:center}
+  .js .steps .step.reveal{opacity:1;transform:none}
+  .swipe-hint{display:block;margin:6px 0 0;text-align:center;font-size:13px;letter-spacing:.04em;color:var(--dim)}
+}
