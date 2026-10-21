@@ -1,49 +1,54 @@
 # Sistema Agenda Piena
 
-> Servizio italiano per saloni di bellezza, parrucchieri e centri estetici che riduce gli appuntamenti mancati (no-show), fa tornare i clienti che non prenotano da tempo e riempie i posti lasciati liberi dalle disdette all'ultimo minuto. I messaggi partono su WhatsApp dal numero del salone. Il lavoro operativo lo svolge il fondatore, Steven Russo; chi gestisce il salone approva ogni invio. Il gestionale (agenda, schede clienti, prenotazione online) è incluso nel servizio.
+> Servizio italiano per saloni di bellezza, parrucchieri e centri estetici che riduce gli appuntamenti mancati (no-show), fa tornare i clienti che non prenotano da tempo e riempie i posti lasciati liberi dalle disdette all'ultimo minuto. I messaggi partono su WhatsApp dal numero del salone. Il lavoro operativo lo svolge il fondatore, Steven Russo; chi gestisce il salone approva ogni campagna e accende una volta i messaggi automatici. Il gestionale (agenda, schede clienti, prenotazione online) è incluso nel servizio.
 
 ## A chi è utile
 - Chi gestisce un salone di bellezza, un parrucchiere, un centro estetico, un centro laser, un nail o lash studio, o qualsiasi attività su appuntamento con clienti che tornano nel tempo.
+- Non è rivolto a medici estetici e strutture sanitarie.
 - Chi ha appuntamenti che saltano senza avviso, clienti abituali che smettono di tornare, disdette che lasciano ore vuote, un archivio clienti che nessuno ricontatta.
 
 ## Come funziona
-1. Si mette in ordine l'archivio clienti del salone (quaderno, rubrica o gestionale) e lo si divide tra clienti attivi, tiepidi, freddi e persi.
+1. La titolare carica la lista clienti nel gestionale, nel file Excel preparato da Steven Russo (dal quaderno, dalla rubrica o dal gestionale di prima); poi l'archivio si mette in ordine e si divide tra clienti attivi, tiepidi, freddi e persi.
 2. Steven Russo scrive le campagne e i messaggi sul salone, sui suoi servizi e prezzi.
-3. Chi gestisce il salone legge la campagna con l'offerta proposta da Steven Russo sui prezzi del salone, chiede una modifica oppure approva con un tocco: le campagne partono solo col suo sì. Promemoria, conferme e richiesta di recensione sono automatismi che si accendono una volta e si possono spegnere.
+3. Chi gestisce il salone legge la campagna con l'offerta proposta da Steven Russo sui prezzi del salone, chiede una modifica oppure approva con un tocco: le campagne partono solo col suo sì. Promemoria, conferme e gli altri messaggi automatici si accendono una volta e si possono spegnere.
 4. Ogni messaggio contiene un link personale con servizio e orario già inseriti: chi conferma si prende il posto e l'appuntamento entra in agenda da solo.
-5. Il report nel gestionale si aggiorna da solo ogni giorno e mostra solo ciò che è stato davvero incassato (appuntamenti presi, offerte usate). Il gestionale mostra quanto ha portato il sistema, mai quanto il salone paga.
+5. Il report nel gestionale si aggiorna da solo ogni giorno e mostra solo ciò che è stato davvero incassato (appuntamenti presi, offerte usate). Il gestionale mostra quanto ha portato il sistema.
 
 ## Cosa comprende
-- Promemoria e conferme degli appuntamenti su WhatsApp.
+- Promemoria e conferme degli appuntamenti su WhatsApp, ai clienti che hanno dato l'ok a riceverli (il promemoria 2 ore prima solo a chi ha saltato più volte).
 - Riattivazione dei clienti che non tornano.
+- Messaggio per riprenotare, al momento giusto per ogni servizio, solo a chi ha dato il consenso alle offerte.
 - Proposte per riempire i posti liberati all'ultimo minuto.
-- Messaggi dopo il servizio e richiesta di recensioni Google al momento giusto.
+- QR per le recensioni Google al banco del salone, con il conteggio di quante volte viene usato; nessun premio in cambio delle recensioni.
+- Consiglio del giorno dopo il trattamento, se il salone lo accende.
 - Campagne stagionali.
+- Proposta del trattamento completo a chi ne fa solo una parte, con il consenso alle offerte su misura.
 - Prenotazione online 24 ore su 24, con conferma automatica.
-- Report economico aggiornato ogni giorno.
-- Gestionale Atelier incluso (in costruzione: alla prima chiamata viene mostrato cosa è già pronto e cosa arriva). Prende il posto dell'agenda che il salone usa oggi; clienti, servizi e prezzi vengono importati da Steven Russo prima di partire. Le risposte a parole dei clienti arrivano sul WhatsApp del salone e risponde il salone.
+- Report aggiornato ogni giorno, con quanto ha portato il servizio in euro e in percentuale dell'incasso; resoconto mensile dal secondo mese.
+- Gestionale Atelier incluso (in costruzione: all'incontro viene mostrato cosa è già pronto e cosa arriva). Prende il posto dell'agenda che il salone usa oggi; la lista clienti la carica la titolare, con Steven Russo in videochiamata; servizi e prezzi li configura Steven Russo. Le risposte a parole dei clienti si leggono nel gestionale, nella scheda del cliente, e il salone risponde da lì.
 
 ## Clienti nuovi
 - Il servizio nasce per far rendere i clienti che il salone ha già.
-- Porta clienti nuovi in modo indiretto: dal primo mese con le recensioni Google; come passo successivo, quando l'archivio lavora bene, con campagne di passaparola ("porta un'amica o un amico", vantaggio per entrambi, condizioni decise insieme).
+- Porta clienti nuovi in modo indiretto: dal primo mese con le recensioni Google, raccolte con un QR al banco; come passo successivo, quando l'archivio lavora bene, con campagne di passaparola ("porta un'amica o un amico", vantaggio per entrambi, condizioni decise insieme).
 - Nessuna commissione sugli incassi del salone.
+- Non comprende pubblicità a pagamento, grafiche o gestione dei social.
 
 ## Dati e privacy (GDPR)
 - I dati restano del salone; Sistema Agenda Piena li tratta per conto del salone con accordo scritto (nomina a responsabile del trattamento) e li restituisce e cancella a fine rapporto.
-- Messaggi promozionali solo a chi ha dato il consenso; chi chiede di non riceverne più viene escluso subito.
+- Ogni messaggio solo a chi ha dato l'ok a riceverlo su WhatsApp; offerte solo a chi ha dato il consenso, offerte su misura solo a chi ha dato anche quel consenso. STOP ferma le offerte, BASTA ferma tutti i messaggi.
 - Solo piattaforma ufficiale WhatsApp Business di Meta, sul numero del salone.
-- Dati trattati: nome, telefono, servizi, date e note di lavoro; nessun dato sulla salute. Nessuna vendita o cessione a terzi.
+- Dati trattati: nome, telefono, servizi, date, note di lavoro e, se il salone li segna, compleanno, la persona del salone che preferisce, ogni quanto viene, il trattamento che fa di solito e se non vuole ricevere offerte; nessun dato sulla salute. Nessuna vendita o cessione a terzi.
 - I documenti (accordo sul trattamento dei dati, informativa per i clienti, testo del consenso) vengono preparati da Sistema Agenda Piena, pronti da firmare.
 
 ## Dove
 - Sede: Paderno Dugnano (MI), Italia.
-- Tutta Italia: il servizio si svolge in videochiamata e su WhatsApp, con Steven Russo sempre raggiungibile.
+- Tutta Italia: il servizio si svolge a distanza; il contatto è su WhatsApp, con videochiamata o telefonata su richiesta per le questioni delicate. I saloni fondatori hanno in più una chiamata a settimana, dall'accensione e finché il servizio è in costruzione.
 - Per i primi saloni fondatori di Milano e provincia è possibile anche un incontro di persona.
 
 ## Condizioni e stato
 - Il prezzo non è pubblicato: viene comunicato alla prima chiamata, dopo aver verificato se il servizio conviene al salone.
-- Durata a scelta: pacchetti da tre, sei o dodici mesi; alla scadenza si decide se continuare, senza rinnovi automatici a sorpresa.
-- I costi dei messaggi WhatsApp sono a carico del salone; l'account WhatsApp resta del salone.
+- Durata a scelta: pacchetti da tre, sei o dodici mesi (per i fondatori solo sei o dodici); i mesi contano dall'accensione del servizio, comunicata per iscritto. Nessun rinnovo automatico: 15 giorni dopo la scadenza per rinnovare, con due promemoria. Contratto e accordo sui dati si firmano online, dal telefono.
+- I messaggi WhatsApp li paga il salone direttamente a Meta; l'account WhatsApp resta del salone.
 - Il servizio è nato nel 2026 e sta accogliendo i primi saloni fondatori, a condizioni riservate (Programma Fondatori, posti limitati).
 
 ## Contatti
@@ -62,3 +67,4 @@
 - [Come avere più recensioni Google per il tuo salone](https://sistemaagendapiena.it/guide/recensioni-google.html)
 - [Il passaparola che funziona: porta un'amica o un amico, senza svendere](https://sistemaagendapiena.it/guide/passaparola.html)
 - [Informativa privacy](https://sistemaagendapiena.it/privacy.html)
+- [Condizioni d'uso](https://sistemaagendapiena.it/condizioni.html)
