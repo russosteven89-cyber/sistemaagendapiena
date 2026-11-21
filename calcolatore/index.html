@@ -16,9 +16,47 @@
   :root{--fondo:#f5f5f7;--carta:#fff;--testo:#111;--testo-2:#555;--filo:#d2d2d7;--nero:#000;--bianco:#fff;--rosso:#b3261e}
   :root{--fondo:#f2f2f7}
   :root[data-theme="dark"]{--fondo:#000;--carta:#1c1c1e;--testo:#f5f5f7;--testo-2:#a1a1a6;--filo:#3a3a3c;--nero:#fff;--bianco:#000;--rosso:#ff8a80}
-  html,body{margin:0;background:var(--fondo);color:var(--testo);font:17px/1.4 -apple-system,BlinkMacSystemFont,"Inter","Segoe UI",sans-serif}
+  html{background:var(--fondo)}
+  html,body{margin:0;color:var(--testo);font:17px/1.4 -apple-system,BlinkMacSystemFont,"Inter","Segoe UI",sans-serif}
+  body{background:transparent}
+  /* 21/11 notte (Steven: «la schermata d'entrata è piatta»): come l'entrata del gestionale (features/sign-in, ramo principale):
+     le cinque luci grigie dietro (shared/ui/theme/base.css «.ui-lights») e, sul computer e sull'iPad, la scheda di vetro (ui-panel);
+     sul telefono la pagina sta direttamente sulle luci, senza scheda, come nel gestionale. */
+  :root{--campo:#fff;--campo-bordo:rgba(0,0,0,.46);
+    --luce-1:rgba(0,0,0,.32);--luce-2:rgba(0,0,0,.25);--luce-3:rgba(0,0,0,.21);--luce-4:rgba(0,0,0,.19);
+    --pannello:linear-gradient(150deg,rgba(255,255,255,.52),rgba(255,255,255,.20) 50%,rgba(255,255,255,.32));--pannello-bordo:#fff;
+    --pannello-ombra:0 30px 70px rgba(0,0,0,.17),0 0 0 1px rgba(0,0,0,.08),inset 0 2px 0 rgba(255,255,255,1),inset 0 -1.5px 0 rgba(0,0,0,.05),inset 0 0 0 1.5px rgba(255,255,255,.6),inset 0 26px 40px -30px rgba(255,255,255,.95);
+    --pannello-sfocato:blur(28px) saturate(170%);--pannello-pieno:#f7f7f8}
+  :root[data-theme="dark"]{--campo:#0c0c0e;--campo-bordo:rgba(255,255,255,.50);
+    --luce-1:rgba(190,204,224,.27);--luce-2:rgba(190,204,224,.21);--luce-3:rgba(190,204,224,.16);--luce-4:rgba(190,204,224,.145);
+    --pannello:linear-gradient(150deg,rgba(255,255,255,.11),rgba(255,255,255,.025) 45%,rgba(255,255,255,.05)),rgba(10,10,12,.44);--pannello-bordo:rgba(255,255,255,.24);
+    --pannello-ombra:0 30px 80px rgba(0,0,0,.70),0 0 0 1px rgba(0,0,0,.55),inset 0 1.5px 0 rgba(255,255,255,.3),inset 0 -1px 0 rgba(255,255,255,.05),inset 0 0 0 1px rgba(255,255,255,.05),inset 0 30px 44px -32px rgba(255,255,255,.16);
+    --pannello-sfocato:blur(30px) saturate(150%);--pannello-pieno:#141416}
+  .luci{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;opacity:.55}
+  .luci i{position:absolute;border-radius:50%;filter:blur(60px)}
+  :root:not([data-theme="dark"]) .luci i{filter:blur(52px)}
+  .luci i:nth-child(1){width:46%;height:52%;left:-8%;top:-12%;background:var(--luce-1)}
+  .luci i:nth-child(2){width:40%;height:46%;right:-6%;top:18%;background:var(--luce-2)}
+  .luci i:nth-child(3){width:50%;height:40%;left:28%;bottom:-16%;background:var(--luce-3)}
+  .luci::before,.luci::after{content:"";position:absolute;border-radius:50%;filter:blur(60px);width:600px;height:560px}
+  .luci::before{left:28%;top:300px;background:var(--luce-4)}
+  .luci::after{right:6%;top:860px;background:var(--luce-3)}
+  @media (max-width:1023.98px){
+    :root{--luce-1:rgba(0,0,0,.26);--luce-2:rgba(0,0,0,.20);--luce-3:rgba(0,0,0,.17);--luce-4:rgba(0,0,0,.15)}
+    :root[data-theme="dark"]{--luce-1:rgba(190,204,224,.216);--luce-2:rgba(190,204,224,.168);--luce-3:rgba(190,204,224,.128);--luce-4:rgba(190,204,224,.116)}
+    .luci::before,.luci::after{width:95%;height:340px;filter:blur(46px)}
+    .luci::before{left:0%;top:240px}
+    .luci::after{right:-12%;top:680px}
+  }
   .porta{min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 16px;box-sizing:border-box}
-  .scheda{width:100%;max-width:420px;background:var(--carta);border:1px solid var(--filo);border-radius:20px;padding:28px 24px;box-sizing:border-box}
+  .scheda{width:100%;max-width:460px;box-sizing:border-box;padding:32px 36px 28px;border-radius:20px;
+    background:var(--pannello-pieno);border:1px solid var(--pannello-bordo);box-shadow:var(--pannello-ombra)}
+  @supports ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+    .scheda{background:var(--pannello);-webkit-backdrop-filter:var(--pannello-sfocato);backdrop-filter:var(--pannello-sfocato)}}
+  @media (max-width:1023.98px){
+    .porta{align-items:flex-start;padding:calc(36px + env(safe-area-inset-top)) 20px calc(40px + env(safe-area-inset-bottom))}
+    .scheda{max-width:none;padding:0;border:0;border-radius:0;background:none;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+  }
   .marchio{display:flex;align-items:center;gap:12px;margin-bottom:22px}
   .marchio img{width:44px;height:44px;border-radius:10px}
   .marchio b{display:block;font-size:17px}
@@ -26,7 +64,7 @@
   h1{font-size:22px;margin:0 0 6px}
   p{margin:0 0 18px;color:var(--testo-2);font-size:15px}
   label{display:block;font-weight:600;font-size:15px;margin-bottom:8px}
-  input[type=password]{width:100%;box-sizing:border-box;min-height:52px;font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--filo);background:var(--fondo);color:var(--testo)}
+  input[type=password]{width:100%;box-sizing:border-box;min-height:52px;font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--campo-bordo);background:var(--campo);color:var(--testo)}
   button{width:100%;min-height:52px;margin-top:14px;border:0;border-radius:999px;background:var(--nero);color:var(--bianco);font:600 17px/1.2 inherit;cursor:pointer}
   button:disabled{opacity:.5}
   .stato{min-height:22px;margin-top:12px;font-size:15px;color:var(--testo-2)}
@@ -38,6 +76,7 @@
 </style>
 </head>
 <body>
+<div class="luci" aria-hidden="true"><i></i><i></i><i></i></div>
 <main class="porta">
   <div class="scheda">
     <div class="marchio"><img src="icon-192.png" alt=""><div><b>Calcolatore del guadagno</b><small>Sistema Agenda Piena</small></div></div>
@@ -57,7 +96,7 @@
 (function(){
   'use strict';
   var AVVOLTA = {"sale": "A43uNUKDFeBZ+Dg1TpZ0xg==", "giri": 600000, "iv": "isTmftBRb516uB+9", "avvolta": "ZEHWLgpIAyQS4dbeMd0mRXipepMm4+o5YjpalZjp2l3QOXK0xQd3fKmDTvS4V2Ee"};      // la chiave del contenuto, chiusa con la parola d'ordine di Steven
-  var VERSIONE = '8ec201ba82cf';
+  var VERSIONE = 'c2ae205c15e6';
   var TESTA_APP = "<link rel=\"manifest\" href=\"manifest.webmanifest\"><link rel=\"apple-touch-icon\" href=\"apple-touch-icon.png\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-title\" content=\"Calcolatore\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"theme-color\" content=\"#000000\"><meta name=\"robots\" content=\"noindex, nofollow\">";      // icona, nome e manifest: restano anche nella pagina aperta
   var CHIAVE_SALVATA = 'calcolatore-chiave';
   var el = function(id){ return document.getElementById(id); };
