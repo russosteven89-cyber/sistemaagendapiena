@@ -1,7 +1,7 @@
 /* Calcolatore sull'iPad: funziona anche senza rete.
    Prima prova la rete (al massimo 4 secondi), così le versioni nuove arrivano da sole; senza rete usa la copia salvata. */
-var CACHE = 'calcolatore-73430da0f699';
-var FILE = ['./', 'index.html', 'contenuto.bin?v=73430da0f699', 'manifest.webmanifest', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'icon-512-maskable.png', 'favicon.svg'];
+var CACHE = 'calcolatore-724080e4ff88';
+var FILE = ['./', 'index.html', 'contenuto.bin?v=724080e4ff88', 'manifest.webmanifest', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'icon-512-maskable.png', 'favicon.svg'];
 
 self.addEventListener('install', function(e){
   e.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(FILE); }).then(function(){ return self.skipWaiting(); }));
